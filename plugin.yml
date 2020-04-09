@@ -1,0 +1,11 @@
+name: R4Utils
+main: r4tl.r4utils.R4Utils
+version: 1.0
+api-version: 1.14
+commands:
+  hash:
+    description: Adds an unique hash to the item in the player's hand.
+    usage: /hash (must be sent by a player; must have an item in the player's main hand)
+  roll:
+    description: Rolls n number of f-sided dies. Default f is 6 and n is 1.
+    usage: /roll; /roll <f>; /roll <f> <n> (f and n must be parseable as integers)
